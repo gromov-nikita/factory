@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2262262d-d549-46f6-823e-b09b9a2a0472" name="Default Changelist" comment="" />
+    <list default="true" id="2262262d-d549-46f6-823e-b09b9a2a0472" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/factory/Cars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/factory/BMW.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/factory/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/factory/CarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/factory/Mercedes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/factory/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/factory/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BMW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/makeOfCars/BMW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/factory/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/factory/CarFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mercedes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/makeOfCars/Mercedes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Runner.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -19,6 +33,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1mfFKtc3svUR58LSFtFbOUUgtp9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,6 +41,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="factory" />
+      <recent name="com.gromovlearn" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -55,21 +76,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1322" height="177" key="GridCell.Tab.0.bottom" timestamp="1609880729354">
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609970004855">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="177" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1609880729354" />
-    <state width="1322" height="177" key="GridCell.Tab.0.center" timestamp="1609880729354">
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1609970004855" />
+    <state x="479" y="253" width="407" height="241" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1609969940001">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="177" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1609880729354" />
-    <state width="1322" height="177" key="GridCell.Tab.0.left" timestamp="1609880729354">
+    <state x="479" y="253" width="407" height="241" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.738@0.0.1366.738" timestamp="1609969940001" />
+    <state width="661" height="177" key="GridCell.Tab.0.bottom" timestamp="1609971511676">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="177" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1609880729354" />
-    <state width="1322" height="177" key="GridCell.Tab.0.right" timestamp="1609880729354">
+    <state width="661" height="177" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1609971511676" />
+    <state width="661" height="177" key="GridCell.Tab.0.center" timestamp="1609971511676">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="177" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1609880729354" />
+    <state width="661" height="177" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1609971511676" />
+    <state width="661" height="177" key="GridCell.Tab.0.left" timestamp="1609971511666">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="661" height="177" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1609971511666" />
+    <state width="661" height="177" key="GridCell.Tab.0.right" timestamp="1609971511676">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="661" height="177" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1609971511676" />
+    <state x="378" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1609967629801">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="378" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1609967629801" />
   </component>
 </project>
